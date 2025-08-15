@@ -48,7 +48,7 @@ const Chat = () => {
     }
 
     return (
-        <div style={{ background: '#dedeff', padding: '0 1rem', display: 'flex', flexDirection: "column", height: '100dvh' }}>
+        <div style={{ background: '#dedeff', padding: '0 1rem', display: 'flex', flexDirection: "column",  height: "-webkit-fill-available"}}>
             <div style={{
                 background: 'white',
                 padding: '1rem',
