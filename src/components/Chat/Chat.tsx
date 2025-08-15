@@ -23,6 +23,7 @@ const Message = ({ message }: {
             padding: "10px",
             margin: "5px 0",
             background: "white",
+            color: "black"
         }}>{message?.content}</div>
     )
 }
@@ -56,6 +57,7 @@ const Chat = () => {
             }}><h1 style={{
                 fontWeight: 700,
                 fontSize: '1.5rem',
+                color: "black"
             }}>Messages</h1></div>
             <VirtuosoMessageListLicense licenseKey={licenseKey}>
                 <VirtuosoMessageList
@@ -79,6 +81,7 @@ const Chat = () => {
                         width: '100%',
                         resize: "none",
                         flexShrink: 0,
+                        color: "black"
                     }}
                         value={chatMessage}
                         onChange={(event) => setChatMessage(event?.target.value)} />
@@ -88,6 +91,7 @@ const Chat = () => {
                         cursor: 'pointer',
                         margin: "0 auto",
                         display: 'block',
+                        color: "black"
 
                     }} onClick={sendMessage}>Send message</button>
                 </div>
